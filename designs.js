@@ -15,7 +15,7 @@ function makeGrid() {
   for (let i = 1; i <= sizeHeight; i++) {
 
     $("#pixel_canvas").append("<tr></tr");
-    $("tr").addClass("tr0");
+    $("tr").addClass("trHeight0");
 
     for (let j = 1; j <= sizeWidth; j++) {
 

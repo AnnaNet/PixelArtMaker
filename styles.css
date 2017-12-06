@@ -41,12 +41,16 @@ input[type=number] {
 }
 
 .cell {
-  border: solid black 2px;
+  border: solid #5c5e73 2px;
   width: 15px;
   height: 15px;
   background-color: white;
 }
 
-.tr0 {
+.trHeight0 {
   height: 0;
+}
+
+.addPlace {
+  height: 50px;
 }
