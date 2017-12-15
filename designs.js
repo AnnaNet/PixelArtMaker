@@ -16,7 +16,7 @@ function makeGrid() {
     const sizeWidth = $("#input_width").val();
 
     for (let i = 1; i <= sizeHeight; i++) {
-        $("#pixel_canvas").append("<tr></tr");
+        $("#pixel_canvas").append("<tr></tr>");
         $("tr").addClass("trHeight0");
 
         for (let j = 1; j <= sizeWidth; j++) {
@@ -51,7 +51,7 @@ function makeColor(tdClick) {
 //TODO: Calls function makeGrid
 $("#subButton").click(function(event) {
     event.preventDefault();
-    makeGrid ();
+    makeGrid();
 });
 
 
