@@ -46,6 +46,11 @@ function makeColor(tdClick) {
 }
 
 
+function deleteColor(tdDblClick) {
+    $(tdDblClick).css("background-color", "white");
+}
+
+
 //TODO: Listenes to click on button
 //TODO: Stopes default actions of brouser
 //TODO: Calls function makeGrid
@@ -62,4 +67,12 @@ $("table").click(function(event) {
     const target = event.target;
     if (target.tagName != "TD") return;
     makeColor(target);
+});
+
+
+//TODO: 
+$("table").dblclick(function(event) {
+    const target = event.target;
+    if (target.tagName != "TD") return;
+    deleteColor(target);
 });
